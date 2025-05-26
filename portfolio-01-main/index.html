@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <title>I am Jackson</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main" id="main">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div class="code-container">
+          <div><h1>I</h1></div>
+          <div><h1 class="code-line"></h1></div>
+        </div>
+        <a href="#about" class="btn-more"></a>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="card">
+        <div class="about-me" style="margin-bottom: 50px; padding-bottom: 50px">
+          <h2 class="wave" style="margin-bottom: 0">
+            Hi, I am Jackson! <span>👋</span>
+          </h2>
+          <p id="paragraph">
+            "I am a passionate coder who enjoys building and creating
+            interesting things and projects. I have experience with both
+            frontend and progress in backend development. If you want to 
+            know more about the technologies I work with, 
+            you can check the 'TechMate' section
+            below or visit my GitHub profile.<br />
+            I love sharing my work with the community. Feel free to connect with me"
+          </p>
+          <script>
+            var element = document.createElement('p');
+            element.textContent="I am a passionate coder who enjoys building and creating
+            interesting things and projects. I have experience with both
+            frontend and progress in backend development. If you want to 
+            know more about the technologies I work with, 
+            you can check the 'TechMate' section
+            below or visit my GitHub profile.<br />
+            I love sharing my work with the community. Feel free to connect with me";
+            document.body.appendChild(element);
+          </script>
+          <div class="icons">
+            <a
+              href="https://www.linkedin.com/in/jackson-mkenda-774783158/"
+            >
+              <i
+                id="linkedinIcon"
+                class="fab fa-linkedin"
+                style="color: #0077b5"
+              ></i>
+            </a>
+            
+          </div>
+          <a href="cv.pdf" download>
+            <button class="cv">Download CV</button>
+          </a>
+        </div>
+        <div class="about-photo">
+          <div class="prof-photo" style="background-color: var(--red)">
+            <img style="background: transparent" src="me.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tech">
+      <h2 style="z-index: 3">MY SKILLS IN SOFTWARE</h2>
+      <div class="card-row">
+        <div class="tech-card">
+          <h3>FrontEnd<span>🖥️</span></h3>
+          <p
+            style="
+              text-overflow: wrap;
+              font-size: 1.3rem;
+              margin: 0;
+              padding: 20px;
+            "
+          >
+            These are the languages, libraries, and frameworks I use for
+            building user interfaces (UI):
+          </p>
+          <div class="skills">
+            <div class="skill-item">
+              <i class="fab fa-font-awesome" style="color: blue"></i>Font-awesome
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-bootstrap" style="color: purple"></i> Bootstrap
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-html5" style="color: red"></i> HTML
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt" style="color: blue"></i>CSS
+            </div>
+          </div>
+        </div>
+        <div class="tech-card">
+          <h3>BackEnd <span>⚙️</span></h3>
+          <p
+            style="
+              text-overflow: wrap;
+              font-size: 1.3rem;
+              margin: 0;
+              padding: 20px;
+            "
+          >
+            These are the languages, libraries, and frameworks I use for
+            server-side development and working with databases:
+          </p>
+          <div class="skills">
+            <div class="skill-item">
+              <i class="fab fa-laravel"></i> Laravel
+            </div>
+            <div class="skill-item"><i class="fas fa-code"></i> C++</div>
+            <div class="skill-item"><i class="fas fa-cogs"></i> CRUD API</div>
+           <div class="skill-item">
+              <i class="fab fa-django" style="color: red"></i> Django
+            </div>
+          </div>
+        </div>
+        <div class="tech-card">
+          <h3>Tools <span>🔨</span></h3>
+          <p
+            style="
+              text-overflow: wrap;
+              font-size: 1.3rem;
+              margin: 0;
+              padding: 20px;
+            "
+          >
+            These are the tools I commonly use during my coding sessions:
+          </p>
+          <div class="skills">
+            <div class="skill-item"><i class="fas fa-code"></i> VS Code</div>
+            <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+            <div class="skill-item"><i class="fab fa-jira"></i> Jira</div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i> SQL Management Studio
+            </div>
+          </div>
+        </div>
+        <ul class="blobs">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4>TechMate</h4>
+           <ul>
+             <li><a href="#">about me</a></li>
+             <li><a href="#"> services</a></li>
+             <li><a href="#">coding is active learning!</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>get help</h4>
+           <ul>
+             <li><a href="#">GitHub.com</a></li>
+             <li><a href="#">bing.com</a></li>
+             
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>online sources for It</h4>
+           <ul>
+             <li><a href="#">Chatgpt</a></li>
+             <li><a href="#">Bard.ai</a></li>
+           </ul>
+         </div>
+         <footer>
+          <div class="footer-col">
+           <h4>follow me</h4>
+           <div class="social-links">
+            
+             <a href="https://www.linkedin.com/in/jackson-mkenda-774783158/"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+      <br />
+     
+        <div class="container">
+            <div class="footer-content">
+            <p  style {text-align: center; }>&copy; 2025 Jackson Mkenda| Developer Brave Boy!!!!</p>
+    
+            </div>
+        </div>
+        
+  
+         </footer>
+  </body>
+</html>
