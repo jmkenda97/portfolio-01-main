@@ -8,7 +8,7 @@
 
 ## 🎯 Features
 
-- 🖼️ **3 main pages**: Home, Projects, and Contact  
+- 🖼️ **3 main pages**: Home, contact, and technology skills 
 - 🎨 **Modern layout** built with **HTML, CSS, and Bootstrap**  
 - 📱 **Fully responsive** design using **media queries**  
 - 📄 **CV download/view section**  
